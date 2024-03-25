@@ -3,7 +3,13 @@ import classes from "./HeadShot.module.css";
 const HeadShot = () => {
 	return (
 		<div className={classes.content}>
-			<img src={profImage} alt="Luke Davis Head Shot" />
+			<div className={classes.imgContainer}>
+				<img
+					className={classes["circle-image"]}
+					src={profImage}
+					alt="Luke Davis Head Shot"
+				/>
+			</div>
 			<div className={classes.summary}>
 				<h2>Luke Davis</h2>
 				<p>Aspiring Software Engineer</p>

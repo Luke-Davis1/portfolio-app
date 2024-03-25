@@ -3,6 +3,7 @@ const AboutSummary = () => {
 	return (
 		<>
 			<div className={classes.summary}>
+				<h3>My Story</h3>
 				<p>
 					Since 2021, I have been attending Weber State University pursuing two
 					degrees. The first is in Computer Science with a minor in Web
@@ -13,9 +14,10 @@ const AboutSummary = () => {
 					work with APIs and the DOM. During the summer of 2024, I will take on
 					the role of a Quality Assurance Engineer where I will gain many
 					practical skills in testing, automation, reporting and teamwork. After
-					the internship has ended, i will return to Weber State in the fall
+					the internship has ended, I will return to Weber State in the fall
 					where I will continue my studies.
 				</p>
+				<h3>Skills</h3>
 			</div>
 		</>
 	);

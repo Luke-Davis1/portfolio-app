@@ -1,0 +1,11 @@
+.item {
+	background-color: lightblue;
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	.item {
+		max-height: none;
+		max-width: 100%;
+	}
+}

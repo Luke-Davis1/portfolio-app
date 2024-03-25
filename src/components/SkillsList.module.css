@@ -1,0 +1,14 @@
+.list {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(200px, 1fr));
+	grid-template-rows: repeat(2, minmax(200px, 1fr));
+	grid-gap: 10px;
+	width: 80%;
+	margin: auto;
+}
+
+@media (max-width: 768px) {
+	.list {
+		grid-template-columns: 1fr; /* Switch to 1 column for smaller screens */
+	}
+}
