@@ -1,0 +1,21 @@
+.content {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	gap: 2rem;
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+}
+
+.content img {
+	width: 300px;
+	max-width: 30%;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.summary {
+	text-align: left;
+}
