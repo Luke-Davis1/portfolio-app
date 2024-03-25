@@ -1,5 +1,5 @@
 import AboutSummary from "../components/AboutSummary";
-import HeadShot from "../components/HeadShot";
+import HeadShot from "../components/Headshot";
 import PageContent from "../components/PageContent";
 
 const AboutPage = () => {
