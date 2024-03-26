@@ -24,6 +24,7 @@
 .centered-div h3 {
 	font-size: 2vw;
 	color: #c3c3c3;
+	font-weight: 100;
 }
 
 .centered-div p {
@@ -44,4 +45,9 @@
 	font-size: 1.2em;
 	text-transform: uppercase;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.additional-content button:hover {
+	cursor: pointer;
+	transform: scale(1.1);
 }

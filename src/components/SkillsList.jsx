@@ -42,11 +42,14 @@ const DUMMY_SKILLS = [
 
 const SkillsList = () => {
 	return (
-		<ul className={classes.list}>
-			{DUMMY_SKILLS.map((skill) => (
-				<SkillItem name={skill.name} description={skill.description} />
-			))}
-		</ul>
+		<div className={classes.container}>
+			<h3>My Skills</h3>
+			<ul className={classes.list}>
+				{DUMMY_SKILLS.map((skill) => (
+					<SkillItem name={skill.name} description={skill.description} />
+				))}
+			</ul>
+		</div>
 	);
 };
 

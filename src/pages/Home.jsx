@@ -8,13 +8,11 @@ const HomePage = () => {
 					<h2>
 						Hi, my name is <span>Luke Davis</span>
 					</h2>
-					<h3>I'm an aspiring Software Engineer</h3>
+					<h3>I'm becoming a Software Engineer</h3>
 					<p>
 						I'm a driven individual with a strong ambition to excel in the field
-						of software engineering. I thrive on challenges and am deeply
-						passionate about continuous learning and innovation. My goal is to
-						leverage my technical skills and creativity to develop impactful
-						solutions and contribute positively to the world of technology.
+						of software engineering. <br />I thrive on challenges and am deeply
+						passionate about continuous learning and innovation.
 					</p>
 				</div>
 				<div className={classes["additional-content"]}>

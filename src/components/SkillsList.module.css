@@ -3,12 +3,22 @@
 	grid-template-columns: repeat(3, minmax(200px, 1fr));
 	grid-template-rows: repeat(2, minmax(200px, 1fr));
 	grid-gap: 10px;
-	width: 80%;
+	width: 100%;
 	margin: auto;
 }
 
+.container {
+	width: 75%;
+	margin: auto;
+}
+
+.container h3 {
+	font-size: 2vw;
+	color: #a8e0ff;
+	text-align: center;
+}
 @media (max-width: 768px) {
 	.list {
-		grid-template-columns: 1fr; /* Switch to 1 column for smaller screens */
+		grid-template-columns: 1fr;
 	}
 }
