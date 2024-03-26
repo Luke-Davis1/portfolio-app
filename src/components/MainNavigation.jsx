@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 function MainNavigation() {
 	return (
 		<header className={classes.header}>
+			<h1>Luke Davis</h1>
 			<nav>
 				<ul className={classes.list}>
 					<li>

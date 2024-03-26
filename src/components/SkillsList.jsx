@@ -18,7 +18,7 @@ const DUMMY_SKILLS = [
 		id: "s3",
 		name: "Mathematics",
 		description:
-			"Proficiency in applying advanced mathematical concepts and techniques to analyze complex problems, make data-driven decisions, and formulate innovative solutions.",
+			"Proficiency in applying advanced mathematical concepts and techniques.",
 	},
 	{
 		id: "s4",

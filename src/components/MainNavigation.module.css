@@ -1,14 +1,19 @@
 .header {
-	max-width: 60rem;
-	margin: auto;
-	padding: 2rem;
 	display: flex;
-	justify-content: center;
+	padding: 1rem 0;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header h1 {
+	margin: 0;
+	margin-left: 5rem;
+	color: #a8e0ff;
 }
 
 .list {
 	display: flex;
-	gap: 5rem;
+	margin-right: 2rem;
 }
 
 .list a {
@@ -17,9 +22,9 @@
 }
 
 .list li {
-	background-color: #434343;
 	padding: 0.5rem 1rem;
 	border-radius: 10px;
+	color: white;
 }
 
 .list a:hover {
@@ -28,4 +33,10 @@
 
 .list a.active {
 	color: lightblue;
+}
+
+@media (max-width: 768px) {
+	.list {
+		margin: 0;
+	}
 }

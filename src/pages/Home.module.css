@@ -1,0 +1,47 @@
+.page-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+	color: white;
+	gap: 5rem;
+}
+
+.centered-div {
+	width: 60%;
+	text-align: center;
+}
+
+.centered-div h2 {
+	font-size: 4vw;
+}
+
+.centered-div h2 > span {
+	color: #a8e0ff;
+}
+
+.centered-div h3 {
+	font-size: 2vw;
+	color: #c3c3c3;
+}
+
+.centered-div p {
+	font-size: 1.2em;
+}
+
+.additional-content {
+	width: 60%;
+	text-align: center;
+}
+
+.additional-content button {
+	padding: 1rem 2rem;
+	background-color: transparent;
+	color: #a8e0ff;
+	border: 2px solid #a8e0ff;
+	border-radius: 10px;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
