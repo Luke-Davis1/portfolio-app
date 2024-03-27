@@ -1,57 +1,58 @@
 import CourseItem from "./CourseItem";
+import classes from "./CourseList.module.css";
 
 const DUMMY_COURSES = [
 	{
 		id: "c1",
-		name: "CS 1400 - Programming Fundamentals (Java)",
+		name: "Programming Fundamentals",
 	},
 	{
 		id: "c2",
-		name: "CS 1410 - Object-Oriented Programming (C++)",
+		name: "Object-Oriented Programming",
 	},
 	{
 		id: "c3",
-		name: "CS 2130 - Client-Side Web Development (HTML, CSS, JS) ",
+		name: "Client-Side Web Development",
 	},
 	{
 		id: "c4",
-		name: "CS 2420 - Data Structures and Algorithms (C++)",
+		name: "Data Structures and Algorithms",
 	},
 	{
 		id: "c5",
-		name: "CS 2550 - Relational Database and SQL",
+		name: "Relational Database and SQL",
 	},
 	{
 		id: "c6",
-		name: "CS 3280 - Windows Programming (C#)",
+		name: "Windows Programming",
 	},
 	{
 		id: "c7",
-		name: "CS 3550 - Advanced Database Programming",
+		name: "Advanced Database Programming",
 	},
 	{
 		id: "c8",
-		name: "MATH 1210 - Calculus I",
+		name: "Calculus I",
 	},
 	{
 		id: "c9",
-		name: "MATH 1220 - Calculus II",
+		name: "Calculus II",
 	},
 	{
 		id: "c10",
-		name: "MATH 2210 - Calculus III (Multi-variable Calculus)",
+		name: "Calculus III",
 	},
 ];
 const CourseList = () => {
 	return (
-		<>
+		<div className={classes.container}>
 			<h3>Related Courses</h3>
-			<ul>
+			<div className={classes.list}>
 				{DUMMY_COURSES.map((course) => (
 					<CourseItem key={course.id} name={course.name} />
 				))}
-			</ul>
-		</>
+			</div>
+		</div>
 	);
 };
 

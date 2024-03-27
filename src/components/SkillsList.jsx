@@ -46,7 +46,11 @@ const SkillsList = () => {
 			<h3>My Skills</h3>
 			<ul className={classes.list}>
 				{DUMMY_SKILLS.map((skill) => (
-					<SkillItem name={skill.name} description={skill.description} />
+					<SkillItem
+						key={skill.id}
+						name={skill.name}
+						description={skill.description}
+					/>
 				))}
 			</ul>
 		</div>
