@@ -1,4 +1,5 @@
 import CourseList from "../components/CourseList";
+import Experience from "../components/Experience";
 import HeadShot from "../components/Headshot";
 import SkillsList from "../components/SkillsList";
 
@@ -8,6 +9,7 @@ const AboutPage = () => {
 			<HeadShot />
 			<SkillsList />
 			<CourseList />
+			<Experience />
 		</>
 	);
 };

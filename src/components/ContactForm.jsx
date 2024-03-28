@@ -1,4 +1,5 @@
 import { Form, useNavigation } from "react-router-dom";
+import classes from "./ContactForm.module.css";
 
 const ContactForm = () => {
 	// React Hooks
@@ -12,7 +13,7 @@ const ContactForm = () => {
 
 	// Form element
 	return (
-		<Form method="POST">
+		<Form method="POST" className={classes.form}>
 			<p>
 				<label htmlFor="name">Contact Name</label>
 				<input
@@ -63,7 +64,7 @@ const ContactForm = () => {
 					placeholder="Enter message"
 				/>
 			</p>
-			<div>
+			<div className={classes.actions}>
 				<button type="button" onClick={clearHandler}>
 					Clear
 				</button>

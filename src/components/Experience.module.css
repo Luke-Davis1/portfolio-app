@@ -1,0 +1,29 @@
+.wrapper {
+	width: 75%;
+	margin: auto;
+	margin-bottom: 2rem;
+}
+
+.wrapper h3 {
+	font-size: 2em;
+	color: #a8e0ff;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.experience-item {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid #a8e0ff;
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+.experience-item h4 {
+	margin: 1rem 0;
+}

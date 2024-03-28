@@ -37,12 +37,12 @@
 .summary h2 {
 	text-align: center;
 	color: #2d2d34;
-	font-size: 4vw;
+	font-size: 3em;
 }
 
 @media (max-width: 768px) {
 	.content {
-		flex-direction: column;
+		flex-direction: column-reverse;
 		width: 90%;
 		gap: 0;
 	}
