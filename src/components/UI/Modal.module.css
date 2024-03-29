@@ -9,16 +9,18 @@
 }
 
 .modal {
-	position: fixed;
-	top: 5%;
-	left: 5%;
-	width: 100%;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	width: 10rem;
+	height: 8rem;
 	background-color: white;
 	padding: 1rem;
 	border-radius: 14px;
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 	z-index: 30;
 	animation: slide-down 300ms ease-out forwards;
+	color: black;
 }
 
 @media (min-width: 768px) {

@@ -110,7 +110,7 @@ const ContactForm = () => {
 		: `${classes["form-control"]}`;
 
 	// Handlers for form actions
-	const clearHandler = () => {
+	const clearHandler = async () => {
 		// Reset everything
 		resetContactName();
 		resetCompanyName();
@@ -232,7 +232,14 @@ const ContactForm = () => {
 					</button>
 				</div>
 			</Form>
-			{modalIsShowing && <Modal onClose={clearHandler} />}
+			{modalIsShowing && (
+				<Modal onClose={clearHandler}>
+					<p>Contact information has been sent!</p>
+					<button onClick={clearHandler} className={classes.close}>
+						Close
+					</button>
+				</Modal>
+			)}
 		</>
 	);
 };
@@ -252,9 +259,6 @@ export async function newContactAction({ request, params }) {
 		message: data.get("message"),
 	};
 
-	console.log(contactData);
-	console.log(method);
-
 	let url =
 		"https://portfolio-app-30612-default-rtdb.firebaseio.com/contacts.json";
 
@@ -269,4 +273,6 @@ export async function newContactAction({ request, params }) {
 	if (!response.ok) {
 		throw json({ message: "Could not save contact info." }, { status: 500 });
 	}
+
+	return redirect("../contact");
 }

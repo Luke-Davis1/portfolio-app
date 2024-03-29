@@ -94,3 +94,17 @@
 .submit:disabled {
 	background-color: #e0e0e0;
 }
+
+.close {
+	outline: none;
+	background-color: #a8e0ff;
+	border-radius: 5px;
+	padding: 0.5rem 1rem;
+	text-align: right;
+	border: 1px solid #a8e0ff;
+}
+
+.close:hover {
+	cursor: pointer;
+	border: 1px solid navy;
+}
