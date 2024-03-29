@@ -5,7 +5,7 @@
 }
 
 .project img {
-	width: 30rem;
+	width: 20rem;
 	border-radius: 4px;
 }
 
@@ -23,10 +23,18 @@
 	text-decoration: none;
 	font: inherit;
 	cursor: pointer;
+	color: #a8e0ff;
+	border: 2px solid #a8e0ff;
+	border-radius: 4px;
+}
+
+.actions a:hover,
+.actions button:hover {
+	transform: scale(1.1);
 }
 
 .actions button {
 	background-color: transparent;
 	border: none;
-	color: var(--color-primary-800);
+	color: #a8e0ff;
 }

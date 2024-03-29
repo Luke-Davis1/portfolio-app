@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-
+import classes from "./PortfolioNavigation.module.css";
 function PortfolioNavigation() {
 	return (
 		<header className={classes.header}>
