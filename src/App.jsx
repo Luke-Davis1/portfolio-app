@@ -5,6 +5,7 @@ import AboutPage from "./pages/About";
 import PortfolioPage from "./pages/Portfolio";
 import ContactPage from "./pages/Contact";
 import ErrorPage from "./pages/Error";
+import { newContactAction } from "./components/ContactForm";
 
 // Create the router
 const router = createBrowserRouter([
@@ -16,7 +17,7 @@ const router = createBrowserRouter([
 			{ index: true, element: <HomePage /> },
 			{ path: "about", element: <AboutPage /> },
 			{ path: "portfolio", element: <PortfolioPage /> },
-			{ path: "contact", element: <ContactPage /> },
+			{ path: "contact", element: <ContactPage />, action: newContactAction },
 		],
 	},
 ]);
