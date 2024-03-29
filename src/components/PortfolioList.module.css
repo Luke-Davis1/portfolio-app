@@ -1,12 +1,14 @@
 .portfolio {
-	margin: 2rem auto;
-	max-width: 40rem;
+	margin: auto;
+	max-width: 75%;
+	margin-top: 5em;
 }
 
 .list {
-	display: flex;
-	flex-direction: column;
-	gap: 1rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 3em;
 }
 
 .item a {
@@ -15,7 +17,6 @@
 	display: flex;
 	border-radius: 4px;
 	overflow: hidden;
-	padding: 1rem;
 }
 
 .item a:hover {
@@ -37,4 +38,11 @@
 
 .item img {
 	width: 33%;
+}
+
+@media (max-width: 1200px) {
+	.list {
+		display: flex;
+		flex-direction: column;
+	}
 }

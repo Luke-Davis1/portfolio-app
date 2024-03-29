@@ -182,7 +182,7 @@ const ContactForm = () => {
 						/>
 						{phoneHasError && (
 							<p className={classes["error-text"]}>
-								Phone number must be valid!
+								Phone number must be valid! Be sure to add dashes!
 							</p>
 						)}
 					</div>

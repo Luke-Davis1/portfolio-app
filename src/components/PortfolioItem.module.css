@@ -28,7 +28,6 @@
 	border-radius: 4px;
 }
 
-.actions a:hover,
 .actions button:hover {
 	transform: scale(1.1);
 }
