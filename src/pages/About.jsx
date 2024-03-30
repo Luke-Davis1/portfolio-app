@@ -1,7 +1,7 @@
-import CourseList from "../components/CourseList";
-import Experience from "../components/Experience";
-import HeadShot from "../components/Headshot";
-import SkillsList from "../components/SkillsList";
+import CourseList from "../components/Courses/CourseList";
+import Experience from "../components/Experience/Experience";
+import HeadShot from "../components/HeadShot/Headshot";
+import SkillsList from "../components/Skills/SkillsList";
 
 const AboutPage = () => {
 	return (

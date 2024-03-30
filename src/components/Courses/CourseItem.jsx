@@ -1,4 +1,4 @@
-import Card from "./UI/Card";
+import Card from "../UI/Card";
 import classes from "./CourseItem.module.css";
 
 const CourseItem = (props) => {

@@ -1,7 +1,7 @@
 import { Form, useNavigation, json, redirect } from "react-router-dom";
 import classes from "./ContactForm.module.css";
-import useInput from "../hooks/useInput";
-import Modal from "./UI/Modal";
+import useInput from "../../hooks/useInput";
+import Modal from "../UI/Modal";
 import { useState } from "react";
 
 const ContactForm = () => {

@@ -1,5 +1,5 @@
 import { useLoaderData, json } from "react-router-dom";
-import PortfolioList from "../components/PortfolioList";
+import PortfolioList from "../components/Portfolio/PortfolioList";
 
 const PortfolioPage = () => {
 	const data = useLoaderData();

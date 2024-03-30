@@ -1,5 +1,5 @@
 import { json, useRouteLoaderData } from "react-router-dom";
-import PortfolioItem from "../components/PortfolioItem";
+import PortfolioItem from "../components/Portfolio/PortfolioItem";
 const PortfolioDetail = () => {
 	const data = useRouteLoaderData("project-detail");
 	return <PortfolioItem project={data} />;

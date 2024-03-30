@@ -5,7 +5,7 @@ import AboutPage from "./pages/About";
 import PortfolioPage, { projectsLoader } from "./pages/Portfolio";
 import ContactPage from "./pages/Contact";
 import ErrorPage from "./pages/Error";
-import { newContactAction } from "./components/ContactForm";
+import { newContactAction } from "./components/Contact/ContactForm";
 import PortfolioRootLayout from "./pages/PortfolioRootLayout";
 import PortfolioDetail, { projectDetailLoader } from "./pages/PortfolioDetail";
 

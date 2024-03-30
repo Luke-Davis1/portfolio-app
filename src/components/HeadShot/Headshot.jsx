@@ -1,4 +1,4 @@
-import profImage from "../assets/luke_davis_no_background.png";
+import profImage from "../../assets/luke_davis_no_background.png";
 import classes from "./HeadShot.module.css";
 const HeadShot = () => {
 	return (

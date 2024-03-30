@@ -1,4 +1,4 @@
-import PortfolioNavigation from "./PortfolioNavigation";
+import PortfolioNavigation from "../Navigation/PortfolioNavigation";
 import classes from "./PortfolioItem.module.css";
 const PortfolioItem = ({ project }) => {
 	return (

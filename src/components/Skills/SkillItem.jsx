@@ -1,4 +1,4 @@
-import Card from "./UI/Card";
+import Card from "../UI/Card";
 import classes from "./SkillItem.module.css";
 const SkillItem = (props) => {
 	return (
