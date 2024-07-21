@@ -17,6 +17,10 @@
 	gap: 1em;
 }
 
+.experienceList {
+	list-style-type: disc;
+}
+
 .experience-item {
 	display: flex;
 	flex-direction: column;

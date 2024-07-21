@@ -6,7 +6,7 @@ const Experience = () => {
 			<div className={classes.container}>
 				<div className={classes["experience-item"]}>
 					<h4>TECHNICAL INTERN</h4>
-					<ul>
+					<ul className={classes.experienceList}>
 						<li>
 							Spearheaded implementation of Playwright's parallel processing and
 							orchestrated Azure DevOps multi-stage setup, achieving a 75%
