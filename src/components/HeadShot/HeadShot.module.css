@@ -15,18 +15,17 @@
 
 .imgContainer {
 	width: 30%;
-	/* padding-top: 30%; */
+	padding-top: 30%;
 	position: relative;
 	overflow: hidden;
 }
 
 .image {
 	position: absolute;
-	/* top: 0; */
-	bottom: 0;
+	top: 0;
 	left: 0;
 	width: 100%;
-	height: auto;
+	height: 100%;
 	object-fit: cover;
 }
 
