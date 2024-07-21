@@ -33,8 +33,7 @@ const DUMMY_SKILLS = [
 	{
 		id: "s5",
 		name: "Version Control",
-		description:
-			"Experience in using Git for version control, including branching, merging, and pull requests.",
+		description: "Git & Github for branching, merging, and committing code",
 	},
 ];
 
