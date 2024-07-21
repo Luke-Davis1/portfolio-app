@@ -28,8 +28,7 @@ const DUMMY_SKILLS = [
 	{
 		id: "s4",
 		name: "Database Management",
-		description:
-			"Proficiency in SQL for relational Databases like MySQL and SQL server. Experience with NoSQL databases like MongoDB.",
+		description: "SQL, MySQL, MongoDB",
 	},
 	{
 		id: "s5",
