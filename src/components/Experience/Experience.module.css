@@ -19,6 +19,7 @@
 
 .experienceList {
 	list-style-type: disc;
+	width: 80%;
 }
 
 .experience-item {

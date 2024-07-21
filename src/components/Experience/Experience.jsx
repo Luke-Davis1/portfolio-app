@@ -26,7 +26,7 @@ const Experience = () => {
 				</div>
 				<div className={classes["experience-item"]}>
 					<h4>WEB/APPLICATION DEVELOPER</h4>
-					<ul>
+					<ul className={classes.experienceList}>
 						<li>
 							Developed JavaScript modules to integrate and parse data from
 							multiple third-party APIs, significantly improving data retrieval
