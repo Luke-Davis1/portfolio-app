@@ -6,13 +6,18 @@ const DUMMY_SKILLS = [
 	{
 		id: "s1",
 		name: "Programming Languages",
-		description: "Familiar with C++, C#, Java, Python and JavaScript",
+		description: "Java, Python, C++, C#, HTML5, CSS, JavaScript, SQL",
 	},
 	{
 		id: "s2",
 		name: "Computer Science Concepts",
 		description:
-			"Object-Oriented Programming, Polymorphism, Inheritance, Delegates, Computer Architecture",
+			"Object-Oriented Programming, Software Engineering, Database Design",
+	},
+	{
+		id: "s6",
+		name: "Tech Stack",
+		description: "Node, Git/GitHub, React, jQuery, MySQL, MongoDB",
 	},
 	{
 		id: "s3",
@@ -31,12 +36,6 @@ const DUMMY_SKILLS = [
 		name: "Version Control",
 		description:
 			"Experience in using Git for version control, including branching, merging, and pull requests.",
-	},
-	{
-		id: "s6",
-		name: "Communication",
-		description:
-			"Excellent communication skills for effectively conveying technical concepts to both technical and non-technical stakeholders.",
 	},
 ];
 

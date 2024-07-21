@@ -4,43 +4,31 @@ import classes from "./CourseList.module.css";
 const DUMMY_COURSES = [
 	{
 		id: "c1",
-		name: "Programming Fundamentals",
-	},
-	{
-		id: "c2",
-		name: "Object-Oriented Programming",
-	},
-	{
-		id: "c3",
-		name: "Client-Side Web Development",
-	},
-	{
-		id: "c4",
 		name: "Data Structures and Algorithms",
 	},
 	{
+		id: "c2",
+		name: "Object-Oriented Programming (C++)",
+	},
+	{
+		id: "c3",
+		name: "Software Engineering",
+	},
+	{
+		id: "c4",
+		name: "Database programming",
+	},
+	{
 		id: "c5",
-		name: "Relational Database and SQL",
+		name: "Networking Fundamentals/Design",
 	},
 	{
 		id: "c6",
-		name: "Windows Programming",
+		name: "Client Side Web Development/Frameworks",
 	},
 	{
 		id: "c7",
-		name: "Advanced Database Programming",
-	},
-	{
-		id: "c8",
-		name: "Calculus I",
-	},
-	{
-		id: "c9",
-		name: "Calculus II",
-	},
-	{
-		id: "c10",
-		name: "Calculus III",
+		name: "Applied Statistics",
 	},
 ];
 const CourseList = () => {
