@@ -14,17 +14,14 @@ const HeadShot = () => {
 				<div className={classes.summary}>
 					<h2>My Story</h2>
 					<p>
-						Since 2021, I have been attending Weber State University pursuing
-						two degrees. The first is in Computer Science with a minor in Web
-						Development and the second is Computational Statistics and Data
-						Science. I held a role as a Web Developer for Weber State from May
-						2022 - February 2024. I helped create two websites using the Wix
-						Content Management System with some Javascript programming mixed in
-						to work with APIs and the DOM. During the summer of 2024, I will
-						take on the role of a Quality Assurance Engineer where I will gain
-						many practical skills in testing, automation, reporting and
-						teamwork. After the internship has ended, I will return to Weber
-						State in the fall where I will continue my studies.
+						Hey there! I'm pursuing dual majors in Computer Science and
+						Computational Statistics & Data Science at Weber State University,
+						with a minor in Web Development. Passionate about learning new
+						technologies and programming languages independently, my aim is to
+						excel as a Software Engineer, integrating technical skills with
+						innovative problem-solving. I actively engage in personal projects
+						to apply and expand my knowledge, fostering continuous growth in
+						this dynamic field.
 					</p>
 				</div>
 			</div>
